@@ -1,0 +1,15 @@
+{
+  "commandsPath": "./commands",
+  "eventsPath": "./events",
+  "intents": ["GUILDS", "GUILD_MESSAGES"],
+  "deleteUnusedSlashCommands": false,
+  "guildID": "your server id here",
+  "dev": true,
+  "devID": "your id here",
+  "roles": {
+    "competitionPing": "role id"
+  },
+  "channels": {
+    "competitionUpdates": "channel id"
+  }
+}

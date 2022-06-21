@@ -1,0 +1,6 @@
+{
+  "watch": ["src/"],
+  "ext": "ts,json",
+  "ignore": "labels.json",
+  "exec": "node --enable-source-maps --experimental-specifier-resolution=node --experimental-modules --loader ts-node/esm \"./src/\""
+}

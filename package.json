@@ -1,0 +1,37 @@
+{
+  "name": "irontimer-bot",
+  "version": "1.0.0",
+  "repository": "https://github.com/irontimer/irontimer-bot.git",
+  "author": "Evan <evanrayweigel@outlook.com>",
+  "license": "AGPL-3.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "start": "yarn build && node --experimental-json-modules ./dist/index.js"
+  },
+  "dependencies": {
+    "discord-api-types": "0.34.0",
+    "discord.js": "13.8.0",
+    "dotenv": "16.0.1",
+    "glob": "8.0.3",
+    "jsdom": "20.0.0",
+    "lodash": "4.17.21",
+    "node-fetch": "3.2.6"
+  },
+  "devDependencies": {
+    "@types/glob": "7.2.0",
+    "@types/jsdom": "16.2.14",
+    "@types/lodash": "4.14.182",
+    "@types/node": "18.0.0",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "eslint": "8.18.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "nodemon": "2.0.16",
+    "prettier": "2.7.1",
+    "ts-node": "10.8.1",
+    "typescript": "4.7.4"
+  }
+}
